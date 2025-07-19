@@ -4,6 +4,8 @@
 📝 This repository is a running log of all my automation projects, AI experiments, and coding workflows.  
 It captures progress, fixes, features, and lessons learned along the way.
 
+## 🔔 for real Time please visit : [https://t.me/+PFjc4UllBb44ZDdk](https://t.me/+PFjc4UllBb44ZDdk) 💬📢
+
 ## 🔍 What's inside
 
 - `Myke974_Journal.log`: The main timeline of events
