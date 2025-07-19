@@ -14,3 +14,8 @@ It captures progress, fixes, features, and lessons learned along the way.
 To document my creative process, technical steps, and automation experiments — especially those done with N8N, Telegram bots, and AI tools.
 
 ## 📌 Date of creation : 19 July 2025 22:00 GMT+4
+
+---
+
+© 2025 Myke974. All rights reserved.  
+This journal is private work. Do not reuse without permission.
