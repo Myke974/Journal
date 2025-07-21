@@ -50,6 +50,40 @@ Les messages finaux (textes ou images avec légende) sont envoyés automatiqueme
 🔄 Tout se fait en quelques secondes, sans aucune action manuelle.
 
 ---
+## 🧠 Automatisation AI TradingView → Telegram (20/07/2025)
+
+🎯 **Objectif** : publier automatiquement deux analyses Telegram basées sur mes alarmes TradingView, avec confirmation IA via GPT-4 Vision.
+
+### 🔧 Workflow mis en place :
+1. **Création manuelle de l’analyse sur TradingView (12h TF)** :
+   - Ajout d’une alarme (`alarm`) avec un message simple (ex: `[tier1] XAUUSD 1h == BUY`) ou JSON complet.
+   - Alarmes créées à la main après analyse POI, RSI, MACD, etc.
+
+2. **Déclenchement automatisé sur N8N** :
+   - Parsing du message → extraction `ticker`, `interval`, `action`, `exchange`.
+   - Génération d’un graphique via `chart-img`.
+   - 📤 Publication Telegram du **premier message** : formaté proprement avec horodatage GMT+4.
+
+3. **20 minutes plus tard** :
+   - Nouvelle capture du graphique.
+   - Analyse IA via **GPT-4 Vision gratuit** (via navigateur, pas d’API).
+   - 📤 Publication Telegram du **deuxième message** : résumé de l’analyse IA (BUY / SELL confirmé ?).
+
+### 💡 Particularité :
+- Même un texte simple (non JSON) est supporté grâce à un sous-flux JS qui reconstruit un JSON valide.
+- Possibilité de gérer plusieurs types d’alarms (`tier1`, etc.).
+- Escaping automatique des caractères spéciaux pour Telegram Markdown.
+
+### ⚙️ Technologies utilisées :
+- **TradingView**
+- **Ubuntu Server**
+- **N8N privé (subflows JS, GPT-4 prompt injection)**
+- **chart-img (free)**
+- **GPT-4 Vision via navigateur (free)**
+- **Telegram Bot**
+
+
+---
 
 📔 Ce projet fait partie de mon journal technique : [Myke974_Journal](./Myke974_Journal.md)  
 Je partage mes recherches autour de l’automatisation, IA, et finance décentralisée 💸
