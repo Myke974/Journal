@@ -51,11 +51,19 @@ Les messages finaux (textes ou images avec légende) sont envoyés automatiqueme
 
 ---
 
-📔 Ce projet fait partie de mon journal technique : **Myke974_Journal**  
+📔 Ce projet fait partie de mon journal technique : [Myke974_Journal](./Myke974_Journal.md)  
 Je partage mes recherches autour de l’automatisation, IA, et finance décentralisée 💸
 
 🙏 Merci à tous ceux qui me soutiennent.  
 Un like, un partage ou un message fait toujours plaisir !
+
+💰 Faire un don (XRP) :  
+Wallet : `rNxp4h8apvRis6mJf9Sh8C6iRxfrDWN7AV`  
+Tag : `470785736`  
+Réseau : XRP Ledger
+
+© 2025 Myke974. All rights reserved.  
+This journal is private work. Do not reuse without permission.
 
 ---
 
